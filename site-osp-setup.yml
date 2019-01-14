@@ -1,0 +1,4 @@
+- hosts: jumpbox
+#  connection: local
+  roles:
+   -  osp-setup
